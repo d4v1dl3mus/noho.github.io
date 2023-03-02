@@ -125,3 +125,12 @@ small,
     width: 5rem !important;
     transition: width 2s;
 }
+
+
+/**
+Ayuda a que las imagenes de los colaboradores en modo responsive no se sobreponga sobre el menú
+*/
+
+.z-index-nav {
+    z-index: 2;
+}
