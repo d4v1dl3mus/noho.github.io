@@ -43,7 +43,7 @@ small,
 }
 
 .btn-back-to-top {
-    color: var(--yellow);
+    color: var(--orange);
     background-color: var(--primary);
     ;
     border-color: var(--primary);
@@ -52,8 +52,8 @@ small,
 
 .btn-back-to-top:hover {
     color: #212529;
-    background-color: #fd9a2d;
-    border-color: #fc9421;
+    background-color: var(--orange);
+    border-color: var(--orange);
 }
 
 .btn-back-to-top:focus,
@@ -62,4 +62,8 @@ small,
     background-color: #fd9a2d;
     border-color: #fc9421;
     box-shadow: 0 0 0 0.2rem rgba(220, 152, 77, 0.5);
+}
+
+.nav-link:hover {
+    color: var(--orange) !important;
 }
