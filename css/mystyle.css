@@ -4,3 +4,9 @@
     display: block !important;
     width: 100%;
 }
+
+small,
+.small {
+    font-size: 90% !important;
+    font-weight: 500;
+}
