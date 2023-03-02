@@ -115,3 +115,13 @@ small,
 .show>.btn-outline-primary-highlight.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(253, 172, 83, 0.5);
 }
+
+.img-nav-logo-high {
+    width: 6rem !important;
+    transition: width 2s;
+}
+
+.img-nav-logo-low {
+    width: 5rem !important;
+    transition: width 2s;
+}
