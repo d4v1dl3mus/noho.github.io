@@ -134,3 +134,7 @@ Ayuda a que las imagenes de los colaboradores en modo responsive no se sobrepong
 .z-index-nav {
     z-index: 2;
 }
+
+.hr-separate {
+    width: 80%;
+}
