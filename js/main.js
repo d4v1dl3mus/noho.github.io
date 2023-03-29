@@ -26,6 +26,12 @@
         } else {
             $('.back-to-top').fadeOut('slow');
         }
+
+        if ($(this).scrollTop() > 100) {
+            $('.btn-whatsapp ').fadeIn('slow');
+        } else {
+            $('.btn-whatsapp ').fadeOut('slow');
+        }
     });
     $('.back-to-top').click(function() {
         $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
