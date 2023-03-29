@@ -180,9 +180,12 @@ acodiones
     transform: rotate(-180deg);
 }
 
+.whatsapp-none {
+    display: none;
+}
+
 .float-whatsapp {
     position: fixed;
-    display: none;
     width: 60px;
     height: 60px;
     bottom: 87px;
