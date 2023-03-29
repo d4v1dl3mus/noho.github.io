@@ -28,9 +28,9 @@
         }
 
         if ($(this).scrollTop() > 100) {
-            $('.btn-whatsapp ').fadeIn('slow');
+            $('.btn-whatsapp').fadeIn('slow');
         } else {
-            $('.btn-whatsapp ').fadeOut('slow');
+            $('.btn-whatsapp').fadeOut('slow');
         }
     });
     $('.back-to-top').click(function() {
