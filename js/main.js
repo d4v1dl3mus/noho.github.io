@@ -1,6 +1,11 @@
 (function($) {
     "use strict";
 
+
+
+    $('.btn-whatsapp').css("display", "none");
+
+
     // Dropdown on mouse hover
     $(document).ready(function() {
         function toggleNavbarMethod() {
@@ -21,6 +26,7 @@
 
     // Back to top button
     $(window).scroll(function() {
+
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
         } else {
