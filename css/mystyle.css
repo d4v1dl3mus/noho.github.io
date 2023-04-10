@@ -204,3 +204,16 @@ acodiones
     color: #25d366;
     background-color: #fff;
 }
+
+
+
+
+/**
+Sección de link
+*/
+
+.read-more-link{
+    display: block;
+    text-align: right;
+    font-size: 0.9em;
+}
