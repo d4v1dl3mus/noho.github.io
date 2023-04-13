@@ -114,3 +114,23 @@
     });
 
 })(jQuery);
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:false,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            
+        }
+    })
+});
+

@@ -11,7 +11,7 @@
     <div class="container-lg p-0">
         <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
             <a routerLink="/" class="navbar-brand">
-                <img id="img-nav-logo" style="width: 5rem" src="../../../assets/img/Logo.png" alt="" />
+                <img id="img-nav-logo" style="width: 5rem" src="assets/img/Logo.png" alt="" />
                 <!-- <h1 class="m-0 text-white display-4"><span class="text-primary">D</span>ot<span class="text-primary">C</span>om</h1> -->
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -19,6 +19,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
+                    <a routerLink="/"  class="nav-item nav-link">Inicio</a>
+                    <a href="#pointtoabout" class="nav-item nav-link">Sobre nosotros</a>
+                    <a href="#pointtoservices" class="nav-item nav-link">Servicios</a>
                     <a [routerLink]="ruta.path" *ngFor="let ruta of rutas" class="nav-item nav-link"> {{ruta.name}}</a>
 
                 </div>

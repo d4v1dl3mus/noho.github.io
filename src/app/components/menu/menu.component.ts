@@ -9,10 +9,6 @@ export class MenuComponent {
 
   rutas = [
     {
-      name: 'Inicio',
-      path: '/'
-    },
-    {
       name: 'Productos',
       path: '/productos'
     },
